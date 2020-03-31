@@ -22,5 +22,6 @@ gcloud compute instances create jk-test-instance \
    --maintenance-policy TERMINATE \
    --metadata="install-nvidia-driver=True"  \
    --boot-disk-size 200GB \
+   --scopes=cloud-platform,userinfo-email \
    --zone=us-central1-f
 ```
