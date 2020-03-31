@@ -12,7 +12,7 @@ gsutil perfdiag -n 50 -c 50 -s 1000M -t rthru -o output.json gs://jk-perf-test-b
 
 
 ## High perf machine configuration
-gcloud compute instances create test-instance \
+gcloud compute instances create jk-test-instance \
    --custom-cpu 96 \
    --custom-memory 624 \
    --image-project=deeplearning-platform-release \
