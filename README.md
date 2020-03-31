@@ -9,3 +9,16 @@ gsutil perfdiag -n 50 -c 50 -s 1000M -t rthru -o output.json gs://jk-perf-test-b
 |Machine type|Mean throughput|
 |------------|---------------|
 |n1-standard-16|~23GiBit/s|
+
+
+## High perf machine configuration
+gcloud compute instances create test-instance \
+   --custom-cpu 96 \
+   --custom-memory 624 \
+   --image-project=deeplearning-platform-release \
+   --image-family=tf-latest-gpu-gvnic \
+   --accelerator type=nvidia-tesla-v100,count=8 \
+   --maintenance-policy TERMINATE \
+   --metadata="install-nvidia-driver=True"  \
+   --boot-disk-size 200GB \
+   --zone=us-central1-f
