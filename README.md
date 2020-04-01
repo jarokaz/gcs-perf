@@ -8,6 +8,7 @@ gsutil perfdiag -o output.json -t rthru -s 1000MB -n 32 -c 10 gs://jk-perf-test-
 
 |Machine type|Mean throughput|
 |------------|---------------|
+|n1-standard-4|~10GiBit/s|
 |n1-standard-16|~23GiBit/s|
 
 
