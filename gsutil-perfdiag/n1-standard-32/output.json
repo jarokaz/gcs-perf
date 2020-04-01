@@ -1,0 +1,111 @@
+{
+  "read_throughput": {
+    "processes": 32, 
+    "time_took": 17.468207120895386, 
+    "file_size": 1048576000, 
+    "bytes_per_second": 3841771713.35029, 
+    "threads": 1, 
+    "parallelism": "fan", 
+    "total_bytes_copied": 67108864000
+  }, 
+  "error_responses_by_code": {}, 
+  "connection_breaks": 0, 
+  "json_format": "perfdiag", 
+  "request_errors": 0, 
+  "bucket_uri": "gs://jk-perf-test-bucket/", 
+  "gsutil_version": "4.48", 
+  "boto_version": "2.49.0", 
+  "sysinfo": {
+    "bucket_location": "US-CENTRAL1", 
+    "google_host_dns_latency": 0.005631923675537109, 
+    "cpu_count": 32, 
+    "load_avg": [
+      1.83, 
+      1.97, 
+      1.31
+    ], 
+    "netstat_start": {
+      "tcp_retransmit": 32, 
+      "tcp_sent": 25798933, 
+      "tcp_received": 20810340
+    }, 
+    "googserv_ips": [
+      "172.217.214.128"
+    ], 
+    "meminfo": {
+      "mem_free": 118028664000, 
+      "mem_buffers": 335992000, 
+      "mem_total": 123780620000, 
+      "mem_cached": 2833436000
+    }, 
+    "on_gce": true, 
+    "gce_instance_info": "NAME               ZONE           MACHINE_TYPE    PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP   STATUS\njk-n1-standard-16  us-central1-a  n1-standard-32               10.128.0.27  35.238.15.15  RUNNING\n", 
+    "tempdir": "/tmp", 
+    "disk_counters_end": {
+      "sda1": [
+        85066, 
+        31819, 
+        804510720, 
+        5540062208, 
+        332796, 
+        10566088
+      ]
+    }, 
+    "using_proxy": false, 
+    "dns_o-o_ip": "", 
+    "gsutil_config": {
+      "DEFAULT_MAX_UPLOAD_COMPRESSION_BUFFER_SIZE": "2G", 
+      "DEFAULT_SLICED_OBJECT_DOWNLOAD_THRESHOLD": "150M", 
+      "MAX_COMPONENT_COUNT": 1024, 
+      "DEFAULT_SLICED_OBJECT_DOWNLOAD_MAX_COMPONENTS": 4, 
+      "DEFAULT_PARALLEL_COMPOSITE_UPLOAD_THRESHOLD": "0", 
+      "DEFAULT_PARALLEL_COMPOSITE_UPLOAD_COMPONENT_SIZE": "50M", 
+      "CHECK_HASH_ALWAYS": "always", 
+      "DEFAULT_TASK_ESTIMATION_THRESHOLD": 30000, 
+      "DEFAULT_SLICED_OBJECT_DOWNLOAD_COMPONENT_SIZE": "200M", 
+      "DEFAULT_PARALLEL_PROCESS_COUNT": 32, 
+      "CHECK_HASH_NEVER": "never", 
+      "CHECK_HASH_IF_FAST_ELSE_FAIL": "if_fast_else_fail", 
+      "DEFAULT_GZIP_COMPRESSION_LEVEL": 9, 
+      "DEFAULT_PARALLEL_THREAD_COUNT": 5, 
+      "HAS_CRYPTO": true, 
+      "CHECK_HASH_IF_FAST_ELSE_SKIP": "if_fast_else_skip", 
+      "GOOG_CLOUD_CONSOLE_URI": "https://cloud.google.com/console#/project"
+    }, 
+    "google_host_connect_latencies": {
+      "172.217.214.128": 0.001123189926147461
+    }, 
+    "ip_address": "10.128.0.27", 
+    "tcp_proc_values": {
+      "wmem_default": "212992", 
+      "wmem_max": "212992", 
+      "rmem_default": "212992", 
+      "tcp_timestamps": "1", 
+      "tcp_window_scaling": "1", 
+      "tcp_sack": "1", 
+      "rmem_max": "212992"
+    }, 
+    "disk_counters_start": {
+      "sda1": [
+        85066, 
+        31817, 
+        804510720, 
+        5540049920, 
+        332796, 
+        10566088
+      ]
+    }, 
+    "boto_https_enabled": true, 
+    "bucket_storageClass": "STANDARD", 
+    "googserv_route": "", 
+    "netstat_end": {
+      "tcp_retransmit": 32, 
+      "tcp_sent": 28288498, 
+      "tcp_received": 22815426
+    }, 
+    "gmt_timestamp": "Wed, 01 Apr 2020 01:24:26 +0000", 
+    "googserv_hostnames": []
+  }, 
+  "total_requests": 67, 
+  "metadata": {}
+}
