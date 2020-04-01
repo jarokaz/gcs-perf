@@ -10,6 +10,7 @@ gsutil perfdiag -o output.json -t rthru -s 1000MB -n 64 -c 16 gs://jk-perf-test-
 |------------|---------------|
 |n1-standard-4|~10GiBit/s|
 |n1-standard-16|~23GiBit/s|
+|n1-standard-32|~29GiBit/s|
 
 
 ## High perf machine configuration
