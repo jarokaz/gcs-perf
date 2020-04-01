@@ -3,7 +3,7 @@
 The tests were performed using `gsutil perfdiag` configured to test read throughput on parallel read of 50 1000MB files.
 
 ```
-gsutil perfdiag -o output.json -t rthru -s 1000MB -n 32 -c 10 gs://jk-perf-test-bucket 
+gsutil perfdiag -o output.json -t rthru -s 1000MB -n 64 -c 16 gs://jk-perf-test-bucket 
 ```
 
 |Machine type|Mean throughput|
