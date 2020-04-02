@@ -1,6 +1,7 @@
 ```
+INSTANCE_NAME=jk-big-1
 
-gcloud beta compute instances create instance-name \
+gcloud beta compute instances create $INSTANCE_NAME \
    --custom-cpu 96 \
    --custom-memory 624 \
    --image-project=gvnic-vm-image-prod \
