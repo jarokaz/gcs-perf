@@ -20,7 +20,7 @@ gcloud compute instances create jk-test-instance \
    --custom-memory 624 \
    --image-project=deeplearning-platform-release \
    --image-family=tf-latest-gpu-gvnic \
-   --accelerator type=nvidia-tesla-t4,count=4 \
+   --accelerator type=nvidia-tesla-v100,count=8 \
    --maintenance-policy TERMINATE \
    --metadata="install-nvidia-driver=True"  \
    --boot-disk-size 200GB \
